@@ -9,21 +9,21 @@ i=0
 g=0
 while(i<4):
         if(gnum==r):
-            print("your guess is correct")
-            print("you won at your %s attempt"%(i))
-            g=1
-            break
+                print("your guess is correct")
+                print("you won at your %s attempt"%(i))
+                g=1
+                break
         elif(gnum<r):
-            print("guessed number is smaller than the actual number")
-            print("please guess the number again")
-            gnum=int(input())
-            i=i+1
+                print("guessed number is smaller than the actual number")
+                print("please guess the number again")
+                gnum=int(input())
         else:
-            print("Guessed number is greater than the actual number")
-            print("Please enter the value again")
-            gnum=int(input())
-            i=i+1
+                print("Guessed number is greater than the actual number")
+                print("Please enter the value again")
+                gnum=int(input())
+        i=i+1
 if(g==1):
-    print("You won the game")
+        print("Congratulations")
 else:
-    print("you lost")
+        print("Better luck next time")
+        
