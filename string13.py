@@ -1,0 +1,6 @@
+print("Enter string")
+s=input()
+print("Upper case :",end=" ")
+print(s.upper())
+print("Lower case :" , end=" ")
+print(s.lower())
